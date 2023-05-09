@@ -1,0 +1,50 @@
+Lista de TAGs - HTML
+
+PARA ENVELOPAR - ctrl + shift + P
+
+<hr> - linha horizontal
+<br> - break roll - quebra de linha
+<!-->  - para escrever comentarios no programa
+<img src="" alt=""> - para carregar imagem no programa, src=source(local onde esta img), alt=alternative(explicacao do que é a img)
+<link:favicon> - para selecionar o favicon que vai ficar como icone favorito do site
+<b> - texto em negrito, apenas como forma
+<strong> - texto em negrito com semantica(significado)
+<i> - texto em italico(sem semantica)
+<em> - texto em italico(com semantica)
+<mark> - para marcar o texto(highlighted)
+<big> - aumenta um pouco o tamanho da fonte usada
+<small>- diminui um pouco o tamanho da fonte usada
+<del> - marca o texto como excluido
+<ins> - marca o texto como incerido(mesmo que sublinhado)
+<u> - sublinha o texto(sem semantica)
+<sup> - para sobrescrever o texto
+<sub> - para subscrever o texto
+<code> - formata o texto para que todas as letras ocupem a mesma quantidade de espaço na tela(facilitando a leitura de codigos)
+<pre> - serve para indentar toda a linha de comando digitada entre a tag CODE
+<q> - serve para por o texto entre aspas(caso uma citacao de alguem com semantica)
+<blockquote> para uma cetacao de maior tamanho, essa tag da um espaço(um tab no começo da frase)
+<abbr> - usada para quando se quer explicar o significado de uma sigla(no campo TITLE escreve o significado)
+<ol> - listas ordenadas - <ol type "" start "" -> TYPE escolhe o tipo de indent da lista - START -> de onde a lista vai começar
+<li> - list item - fica dentro da tag OL, para ordenar os itens
+<ul> - lista não ordenada(a tag LI tambem é obrigatoria dentro da lista), o TYPE disponiveis são "SQUARE", "DISC", "CIRCLE"
+<dl> - lista de definições(como um dicionario)
+<dt> - é o TERMO da lista de definição, fica dentro da DL
+<dd> é a DESCRICÃO da lista de definição, fica dentro da DL abaixo da DT
+<a> - tag para ancora(link para outro site), dentro da tag tem HREF="" é onde se coloca o endereço completo do site para onde o link vai mandar
+obs: na tag <a href="https://exemplo.github.io/" target="_blank" rel="external">repo no GitHub</a> // TARGET="_blank REL="external" sao 
+fundamentais que sejam colocados, pois o link sera aberto em outra pagina e nao vai sobrepor sua pagina original
+<picture> usada p/ colocar varias imgs de tamanhos diferentes p/ poderem se adaptar a diferentes dispositivos
+obs: tag <img> tem que ser usada com a maior img(referencia) por cima dela tag <source media type> indicando a img de menor tamanho
+sempre colocar a img de menor tamanho por cima da anterior de maior tamanho
+<audio> - tag para inclusao de audio // src="" origem do audio // autoplay = toca musica autom // controls = mostra o controle de audio
+<video> - tag para inclusao de video // src="" origem do video // controls = mostra o controle de video // width="" tamanho da imagem na tela
+OBS: tanto no video quanto no audio, incluir varios formatos para ser o mais compativel possivel com todos os navegadores
+background-image - para colocar o fundo da tela em degrade - usar a func LINEAR-GRADIENT - dentro dela coloca a direcao que deseja o degrade, depois a cor de inicio e cor de final
+obs: dentro do style no head do programa, pode usar a func. TEXT-INDENT onde no paragrafo vai criar um espacamento no inicio dele
+<div> - ocupa todo o espaço da linha "como uma imagem que ocupa o espaço de uma linha na tela inteira", este espaço pode ser configurado sua altura, largura...
+<header> - tag do cabeçalho do site (sentido semantico)
+<main> - tag do corpo do site (sentido semantico)
+<footer> - o rodapé do site (sentido semantico)
+<box-shadow> - cria um sombreado na caixa
+<border-radius> - arredonda a borda da caixa, tirando o angulo de 90° e deixando arredondado
+
